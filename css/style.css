@@ -319,6 +319,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   width: 90%;
   float: left;
+  
 }
 @media screen and (max-width: 768px) {
   .info {
@@ -340,11 +341,13 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   color: #000;
   font-weight: bold;
+  
 }
 .info li .second-block {
   width: 60%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+  margin-right: 10px;
 }
 
 .fh5co-social-icons {
