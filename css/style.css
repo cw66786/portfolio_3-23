@@ -18,6 +18,10 @@ body {
   color: #4d4d4d;
   background: #fff;
 }
+.resumeBtn{
+  background-color: #FF9000;
+  color: white;
+}
 
 #page {
   position: relative;
@@ -982,9 +986,23 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-footer {
   padding: 50px 0;
+ 
   float: left;
   width: 100%;
 }
+
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 40vw;
+  margin-left: 30vw;
+}
+
+
+
+
 #fh5co-footer p:last-child {
   margin-bottom: 0;
 }
