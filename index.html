@@ -67,9 +67,18 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+							<div class="profile-thumb" >
+								<video class="videoInsert"  poster="assets/Dash.jpg" autoplay  muted>
+								<source src="assets/my_video.mp4" type="video/mp4" />
+							  </video>
+							  </div>
 							<h1><span>Craig Wilson</span></h1>
 							<h3><span>Angular Developer</span></h3>
+							<br>
+							<h3><span>&</span></h3>
+							<br>
+							<h1><span>Dash</span></h1>
+							<h3><span>Barketing Manager</span></h3>
 							<p>
 								<ul class="fh5co-social-icons">
 									
@@ -420,6 +429,18 @@
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script>
+		let video = document.querySelector('video');
+			let videoThumb = "assets/my_video.mp4";
+			let dashThumb = "assets/Dash.jpg";
+			video.addEventListener('ended', () => {
+				video.src = dashThumb;
+				setTimeout(() => {
+					video.src = videoThumb;
+				}, "3000");
+
+			});
+	</script>
 
 	</body>
 </html>
