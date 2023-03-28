@@ -1004,6 +1004,7 @@ h1, h2, h3, h4, h5, h6, figure {
  
   float: left;
   width: 100%;
+  background-color: #FF9000;
 }
 
 .footer-info{
@@ -1013,6 +1014,9 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 100%;
   width: 40vw;
   margin-left: 30vw;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 800;
 }
 
 
