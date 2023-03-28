@@ -994,11 +994,18 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding: 50px 0;
 	float: left;
 	width: 100%;
+	background-color: #FF9000;
 	p {
 		&:last-child {
 			margin-bottom: 0;
 		}
 	}
+}
+
+.footer-info{
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: 800;
 }
 
 // Contact
